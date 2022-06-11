@@ -10,7 +10,8 @@
   --white-color: #ffffff;
   --black-color: #000000;
 
-  --light-background-color: #ffffff;
+  --primary-background-color: #ffffff;
+  --light-background-color: #f5f4fa;
   --dark-background-color: #2f303a;
 }
 
@@ -24,7 +25,7 @@ body {
 
   color: var(--primary-color);
 
-  background-color: var(--light-background-color);
+  background-color: var(--primary-background-color);
 }
 
 /* Common Styles */
@@ -53,6 +54,10 @@ body {
 
 .section-dark {
   background-color: var(--dark-background-color);
+}
+
+.section-light {
+  background-color: var(--light-background-color);
 }
 
 .section-title {
@@ -123,6 +128,10 @@ body {
 .site-nav {
   display: flex;
   align-items: center;
+}
+
+.current {
+  color: var(--accent-color);
 }
 
 .nav-list {
@@ -229,7 +238,7 @@ body {
 .works {
   margin-top: 94px;
   margin-bottom: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 94px;
 }
 
 .works-list {
@@ -242,9 +251,13 @@ body {
 
 /* Our team */
 .team {
-  margin-top: 188px;
-  margin-bottom: 94px;
-  padding-bottom: 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team .section-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .team-list {
@@ -260,7 +273,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .worker-name {
@@ -315,4 +328,12 @@ body {
 /* portfolio.html */
 /* Our projects */
 .projects {
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
