@@ -280,13 +280,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 
   color: var(--secondary-color);
 
   margin-top: 30px;
   margin-bottom: 0px;
 }
+
 .job-title {
   font-size: 16px;
   line-height: 1.19;
@@ -326,8 +326,8 @@ body {
 }
 
 /* portfolio.html */
-/* Our projects */
 
+/* Our projects */
 .projects {
 }
 
@@ -350,7 +350,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  letter-spacing: 0.03em;
 
   border: none;
   border-radius: 4px;
@@ -400,7 +399,3 @@ body {
   margin-top: 4px;
   margin-bottom: 0px;
 }
-/* .project-img {
-  display: block;
-  width: 370px;
-} */
